@@ -1,10 +1,6 @@
 #include <stdio.h>
 int main(){
-	freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-    
-    char str[11];
-    scanf("%s", &str);
+    char str[15] = "hello_world!!";
     printf("%s", str);
     return 0;
 }
